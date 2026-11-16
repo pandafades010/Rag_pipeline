@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 N8N_BASE = st.secrets["N8N_BASE_URL"]   # https://malik070.app.n8n.cloud/webhook
-HEADERS = {"X-API-Key": st.secrets["N8N_API_KEY"]}
+HEADERS = {"X-API-Key": st.secrets["c-c "import secrets; print(secrets.token_urlsafe(32))""]}
 
 st.set_page_config(page_title="AI Knowledge Base", page_icon="📚")
 st.title("AI Knowledge Base")
